@@ -4,12 +4,13 @@ English | [日本語](README.ja.md)
 
 Curated list of open-source tools, templates and AI integrations for implementing and operating an **ISMS (Information Security Management System) based on ISO/IEC 27001**.
 
-> **Important:** The text of ISO/IEC 27001 itself (the requirements and Annex A) is copyrighted and sold by ISO and national bodies (in Japan: JIS Q 27001 from the Japanese Standards Association). It is not legitimately available on GitHub. This list contains tools, templates and toolkits that help you implement the standard. Do not commit purchased standard text to a public repository.
+> **Important:** The text of ISO/IEC 27001 itself (the requirements and Annex A) is copyrighted and sold by ISO and national bodies (in Japan: JIS Q 27001 from the Japanese Standards Association). It is not legitimately available on GitHub. This list contains tools, templates and toolkits that help you implement the standard. Do not commit purchased standard text to a public repository. See [Where to Get the Standard](#where-to-get-the-standard-official-sources) for official sources.
 >
 > Descriptions come from each repository's GitHub description; contents and licenses were not verified. Check the license before reusing templates.
 
 ## Contents
 
+- [Where to Get the Standard (Official Sources)](#where-to-get-the-standard-official-sources)
 - [GRC Platforms (multi-framework)](#grc-platforms-multi-framework)
 - [ISMS-Specific Tools](#isms-specific-tools)
 - [Templates and Toolkits](#templates-and-toolkits)
@@ -18,6 +19,22 @@ Curated list of open-source tools, templates and AI integrations for implementin
 - [Mapping Data](#mapping-data)
 - [Related Lists](#related-lists)
 - [Notes](#notes)
+
+## Where to Get the Standard (Official Sources)
+
+The requirement text must be obtained from the official publishers. URLs below were checked on 2026-10-11; prices and availability may change.
+
+**ISO / IEC**
+
+- [ISO/IEC 27001:2022 (ISO store page)](https://www.iso.org/standard/27001) - Edition 3 (2022-10), "Information security, cybersecurity and privacy protection — Information security management systems — Requirements". Sold here (CHF 155 for PDF + ePub when checked); the page has a "Read sample" link.
+- [ISO Online Browsing Platform (OBP)](https://www.iso.org/obp/ui/en/) - Free preview of parts of a standard (such as Foreword, Introduction, Scope, Normative references, Terms and definitions). The full text is a paid product. See the [OBP help article](https://help.iso.org/en/articles/376008-what-is-the-iso-online-browsing-platform-obp).
+
+**Japan (JIS)**
+
+- [JSA Webdesk (Japanese Standards Association)](https://webdesk.jsa.or.jp/) - Online sales of JIS, ISO, IEC and foreign standards. JIS Q 27001:2023 is the Japanese adoption of ISO/IEC 27001:2022.
+- [JIS Q 27001:2023 free preview (PDF)](https://webdesk.jsa.or.jp/preview/pre_jis_q_27001_000_000_2023_j_ed10_ch.pdf) - About 7 pages: cover, committee list, table of contents, foreword and the start of the introduction. The requirement clauses (4 to 10) and Annex A are **not** included.
+- [JISC JIS Search](https://www.jisc.go.jp/app/jis/general/GnrJISSearch.html) - Official JIS search by number, name or keyword. Whether JIS Q 27001 can be viewed there for free was not confirmed.
+- [ISMS-AC (Information Management System Accreditation Center)](https://isms.jp/) - Accreditation body of the Japanese ISMS conformity assessment scheme. Its "基準・ガイド" (standards and guides) section links to certification criteria and guides, and to terms of use for its published documents. The contents of the individual guides were not checked.
 
 ## GRC Platforms (multi-framework)
 
